@@ -1,0 +1,115 @@
+body,html{
+  overflow-x: hidden;
+}
+
+.navbar{
+  padding: 20px;
+  margin: 0;
+  background-color: white;
+  color: black;
+  border: 0;
+  border-radius: 0;
+  .navbar-header{
+    a{
+      color: black;
+    }
+  }
+  .nav{
+    li{
+      a{
+        color: black;
+      }
+    }
+  }
+}
+
+
+.heads{
+  background-image: url('https://static.pexels.com/photos/34086/pexels-photo-large.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 600px;
+  box-shadow: 0 2000px rgba(0,0,0,0.5) inset;
+  margin: 0;
+  h1{
+    letter-spacing: 40px;
+    font-size: 100px;
+    color: white;
+  }
+}
+
+.how{
+  background: white;
+  color: white;
+  margin: 0;
+  img{
+    height: 150px;
+    width: 150px;
+  }
+  .one{
+    background: #e74c3c;
+    padding: 20px;
+  }
+  .two{
+    background: #2980b9;
+    padding: 20px;
+  }
+  .three{
+    background: #16a085;
+    padding: 20px;
+  }
+  .four{
+    background: #e67e22;
+    padding: 20px;
+  }
+}
+
+.team{
+  margin: 0;
+  background-image: url('https://static.pexels.com/photos/1459/street-car-vehicle-blur-large.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  img{
+    height:200px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: white;
+  }
+
+}
+
+.work{
+  margin:0px;
+  background:url('https://pixabay.com/static/uploads/photo/2015/10/22/00/16/work-1000618_960_720.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 2000px rgba(0,0,0,0.5) inset;
+  letter-spacing: 15px;
+  color: white;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+}
+
+.down{
+  background: #34495e;
+  color:white;
+  margin-bottom: 0px;
+  a{
+    border: 2px solid white;
+    list-style-type: none;
+    border-radius: 50px;
+    padding: 20px;
+    color: white;
+  }
+  a:hover{
+    background: white;
+    border: 2px solid #34495e;
+    color: #34495e;
+  }
+}
